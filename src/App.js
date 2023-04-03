@@ -1,22 +1,23 @@
-import Navbar from "../src/components/Navbar"
-import Home from "../src/routes/Home"
+
+import Home from "../src/routes/home/home.component"
+import Navigation from "../src/routes/navigation/navigation.component";
+
 import Sepet from "../src/routes/Sepet"
 import Yoresel from "../src/routes/yoresel"
-import { Route, Routes } from "react-router-dom"
 
-function App() {
+import { Routes, Route } from "react-router-dom"
+
+
+const App = () => {
   return (
-    <>
-      <Navbar />
-      <div className="container">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/yoresel" element={<Yoresel />} />
-          <Route path="/sepet" element={<Sepet />} />
+         <Route path="/" element={<Navigation />}>
+             <Route  index element={<Home />} />
+             <Route path="yoresel" element={<Yoresel />} />
+              <Route path="sepet" element={<Sepet />} />
+          </Route>
         </Routes>
-      </div>
-    </>
-  )
+  );
 }
 
 export default App

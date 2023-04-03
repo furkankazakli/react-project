@@ -7,8 +7,9 @@ const CategoryItem = ({category}) => {
       <img className='img'
         src={imageUrl}
         alt="Kaşar"
-    
       />
+      <div>
+      </div>
       <h1>{title}</h1>
         <button class="b1"><span class="text">{buton}</span></button>
       </div>
