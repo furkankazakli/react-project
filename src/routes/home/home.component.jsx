@@ -32,6 +32,36 @@ const Home = () => {
           "title": "Göbek Kaşar",
           "imageUrl": "https://www.krsmetinbey.com/image/cache/catalog/aras/gobek-kasar-peyniri-kars-metinbey-500x500.jpg",
           "buton":"Sepete Ekle"
+        },
+        {
+          "id": 6,
+          "title": "Isırgan Otlu Peynir",
+          "imageUrl": "https://www.krsmetinbey.com/image/cache/catalog/aras/isirgan-otlu-peynir-500x500.jpg",
+          "buton":"Sepete Ekle"
+        },
+        {
+          "id": 7,
+          "title": "Örgü Peynir",
+          "imageUrl": "https://www.krsmetinbey.com/image/cache/catalog/emir/orgu-peynir-500x500.jpg",
+          "buton":"Sepete Ekle"
+        },
+        {
+          "id": 8,
+          "title": "Kars Manda Yağı",
+          "imageUrl": "https://www.krsmetinbey.com/image/cache/catalog/emir/manda-yagi-kars-krsmetinbey-500x500.jpg",
+          "buton":"Sepete Ekle"
+        },
+        {
+          "id": 9,
+          "title": "Malakan Peyniri",
+          "imageUrl": "https://www.krsmetinbey.com/image/cache/catalog/aras/malakan-gobek-peyniri-500x500.jpg",
+          "buton":"Sepete Ekle"
+        },
+        {
+          "id": 10,
+          "title": "Keçi Koyun Peyniri",
+          "imageUrl": "https://www.krsmetinbey.com/image/cache/catalog/aras/keci-koyun-kasari-500x500.jpg",
+          "buton":"Sepete Ekle"
         }
       ]
   return (

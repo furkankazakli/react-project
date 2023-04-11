@@ -1,7 +1,7 @@
 import './category-item.styles.css';
 
-const CategoryItem = ({category}) => {
-  const { title,buton,imageUrl } = category;
+const YoreselItem = ({yores}) => {
+  const { title,buton,imageUrl } = yores;
   return (
     <div className='card-container'>
     <img className='img'
@@ -17,4 +17,4 @@ const CategoryItem = ({category}) => {
   
 }
 
-export default CategoryItem;
+export default YoreselItem;
