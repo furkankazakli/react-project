@@ -1,6 +1,5 @@
 import YoreselItem from "../category-item/yoreselitems"
 
-
 import './categories.styles.css';
 
 const Yoresel = ({yoresel}) => {

@@ -72,3 +72,10 @@
   .card-container:hover {
     transform: scale(1.05);
   }
+  h2{
+    color:black;
+    margin-top: 10px;
+    margin: 1;
+    font-weight: bold;
+    font-size: xx-large;
+  }
