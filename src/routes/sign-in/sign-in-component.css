@@ -1,0 +1,27 @@
+.sign-in-container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    margin-left: 800px;
+    background-color: #341467;
+    margin-top: 70px;
+    border-radius: 4px;
+}
+.sign-in-container>h1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    font-size: large;
+    align-items: center;
+    border-radius: 4px;
+    margin-left: 5px;
+    width: 42%;
+    height: 30px;
+    color: aliceblue;
+}

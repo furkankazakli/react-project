@@ -4,10 +4,9 @@ import Navigation from "../src/routes/navigation/navigation.component";
 
 import Sepet from "../src/routes/Sepet"
 import Yoresel from "../src/routes/yoresel/yoresel"
+import KayıtOl from './routes/sign-in/sign-in.component';
 
 import { Routes, Route } from "react-router-dom"
-import KayıtOl from "./routes/sign-in/sign-in.component";
-
 
 
 
@@ -18,7 +17,7 @@ const App = () => {
              <Route  index element={<Home />} />
              <Route path="/yoresel" element={<Yoresel />} />
               <Route path="sepet" element={<Sepet />} />
-              <Route path="sign-in" element={<KayıtOl/>}></Route>
+              <Route path='sign-in' element={<KayıtOl/>}/>
           </Route>
         </Routes>
   );
