@@ -1,10 +1,10 @@
 .sign-in-container{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     width: 350px;
-    text-align: center;
-    align-items: center;
-    margin-left: 800px;
+   margin:0 auto 0 auto;
+   align-items: center;
     background-color: #341467;
     margin-top: 70px;
     border-radius: 4px;
@@ -21,7 +21,7 @@
     align-items: center;
     border-radius: 4px;
     margin-left: 5px;
-    width: 42%;
-    height: 30px;
+   width: 50%;
+    height: 40px;
     color: aliceblue;
 }

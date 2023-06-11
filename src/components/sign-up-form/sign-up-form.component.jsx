@@ -54,7 +54,7 @@ const SignUpForm = () => {
             <h1>Kayıt ol</h1>
             <form onSubmit={handleSubmit}>
                 <input
-                placeholder="Display Name"
+                placeholder="Kullanıcı Adı"
                 type="text"
                 required
                 name='displayName'
@@ -74,7 +74,7 @@ const SignUpForm = () => {
 
               
                 <input
-                placeholder="password"
+                placeholder="Şifre"
                 type="password"
                 required
                 name='password'
@@ -84,14 +84,13 @@ const SignUpForm = () => {
 
              
                 <input
-                placeholder="Confirm Password"
+                placeholder="Şifreyi Doğrula"
                 type="password"
                 required
                 name='confirmPassword'
                 value={confirmPassword}
                 onChange={handleChange}
                 />
-
                 <button id="btn-login" type="submit">Kayıt ol</button>
             </form>
         </div>
